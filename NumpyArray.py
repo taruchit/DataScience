@@ -30,3 +30,6 @@ Row 0, column 2 -> 3
 '''
 print(matrix_numpy_array[0][2])
 
+#Matrix filled by random integers
+matrix_numpy_randomInt=np.random.randint(1,10,(4,4))
+print(matrix_numpy_randomInt)
