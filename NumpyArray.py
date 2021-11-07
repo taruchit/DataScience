@@ -59,3 +59,8 @@ print(matrix_numpy_ones)
 matrix_numpy_identity=np.identity(4,dtype=int)
 print("Identity matrix: -")
 print(matrix_numpy_identity)
+
+#Matrix with same element
+matrix_numpy_full=np.full((3,5),100)
+print("Matrix with all elements with same values: -")
+print(matrix_numpy_full)
