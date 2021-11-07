@@ -64,3 +64,19 @@ print(matrix_numpy_identity)
 matrix_numpy_full=np.full((3,5),100)
 print("Matrix with all elements with same values: -")
 print(matrix_numpy_full)
+
+#Row wise matrix concatenation
+matrix1=np.array([[1,2,3],
+                  [4,5,6]])
+
+matrix2=np.array([[7,8,9],
+                 [10,11,12]])
+
+matrix_1_2_rowWise=np.concatenate([matrix1,matrix2],axis=0)
+print("Row wise concatenated matrix: -")
+print(matrix_1_2_rowWise)
+
+#Column wise matrix concatenation
+matrix_1_2_columnWise=np.concatenate([matrix1,matrix2],axis=1)
+print("Column wise matrix concetenation: -")
+print(matrix_1_2_columnWise)
