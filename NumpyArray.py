@@ -54,3 +54,8 @@ print(matrix_numpy_zeros)
 matrix_numpy_ones=np.ones((3,5),dtype=int)
 print("Matrix of Ones: -")
 print(matrix_numpy_ones)
+
+#Identity matrix
+matrix_numpy_identity=np.identity(4,dtype=int)
+print("Identity matrix: -")
+print(matrix_numpy_identity)
