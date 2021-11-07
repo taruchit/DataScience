@@ -50,3 +50,7 @@ matrix_numpy_zeros=np.zeros((3,4),dtype=int)
 print("Printing zeros matrix: -")
 print(matrix_numpy_zeros)
 
+#Matrix of Ones
+matrix_numpy_ones=np.ones((3,5),dtype=int)
+print("Matrix of Ones: -")
+print(matrix_numpy_ones)
