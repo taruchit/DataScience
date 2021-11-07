@@ -45,3 +45,7 @@ matrix_numpy_randomInt_fixSeed=np.random.randint(1,10,(4,4))
 print("Numpy matrix with fixed random integers: -")
 print(matrix_numpy_randomInt_fixSeed)
 
+#Matrix with Zeros
+matrix_numpy_zeros=np.zeros((3,4),dtype=int)
+print("Printing zeros matrix: -")
+print(matrix_numpy_zeros)
