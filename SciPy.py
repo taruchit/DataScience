@@ -31,8 +31,26 @@ print(com)
 #Importing prem from scipy
 from scipy.special import perm
 
+#Importing numoy
+import numpy as np
+
 '''Calculating total number of permutations from 4 different values taken 2 at a time
 4P2'''
 per=perm(4,2)
 print("Permutation 4P2: -")
 print(per)
+
+#Linear Algebra
+
+#Importing linear algebra module: linag 
+from scipy import linalg
+
+#Square matrix
+matrix=np.array([[1,5,2],
+                [3,2,1],
+                [1,2,1]])
+
+#Calculating determinant of the matrix
+matrix_determinant=linalg.det(matrix)
+print("Determinant of the matrix: - ")
+print(matrix_determinant)
