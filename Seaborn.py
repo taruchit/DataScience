@@ -50,3 +50,5 @@ iris=sns.load_dataset("iris")
 print(iris.head())
 
 sns.pairplot(iris,hue='species',height=2.5)
+
+sns.pairplot(iris)
