@@ -21,8 +21,26 @@ data=pd.DataFrame(data,columns=['x','y'])
 
 print(data)
 
-#Density plots
+#Density plots : kdeplot
+#shade=True
 for col in 'xy':
     sns.kdeplot(data[col],shade=True)
+    
+#Density plots
+#shade=False
+for col in 'xy':
+    sns.kdeplot(data[col],shade=False)
 
 
+#Density plots: distplot
+#kde-True
+for col in 'xy':
+    sns.distplot(data[col],kde=True)
+    
+#kde=False
+for col in 'xy':
+    sns.distplot(data[col],kde=False)
+
+for col in 'xy':
+    sns.distplot(data[col])
+    
