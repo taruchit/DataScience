@@ -35,12 +35,18 @@ for col in 'xy':
 #Density plots: distplot
 #kde-True
 for col in 'xy':
-    sns.distplot(data[col],kde=True)
+    sns.displot(data[col],kde=True)
     
 #kde=False
 for col in 'xy':
-    sns.distplot(data[col],kde=False)
+    sns.displot(data[col],kde=False)
 
 for col in 'xy':
-    sns.distplot(data[col])
+    sns.displot(data[col])
     
+
+#Pair Plot
+iris=sns.load_dataset("iris")
+print(iris.head())
+
+sns.pairplot(iris,hue='species',height=2.5)
