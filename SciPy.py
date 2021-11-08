@@ -54,3 +54,8 @@ matrix=np.array([[1,5,2],
 matrix_determinant=linalg.det(matrix)
 print("Determinant of the matrix: - ")
 print(matrix_determinant)
+
+#Calculating inverse of the matrix
+matrix_inverse=linalg.inv(matrix)
+print("Inverse of the matrix: -")
+print(matrix_inverse)
