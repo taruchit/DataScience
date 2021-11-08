@@ -20,3 +20,15 @@ plt.plot(x,np.cos(x), label='cosine')
 plt.plot(x,np.sin(x), label='sine')
 plt.plot(x,np.tan(x), label='tan')
 
+
+#Stacked Plot
+
+data=pd.DataFrame([[1,2],
+                   [3,4]])
+
+#Plotting stacked graph
+data.plot(kind='bar', stacked=True)
+
+#Plotting non-stacked graph
+data.plot(kind='bar', stacked=False)
+
