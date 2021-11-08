@@ -27,3 +27,12 @@ from scipy.special import comb
 com=comb(4,2)
 print("Combination: 4C2: -")
 print(com)
+
+#Importing prem from scipy
+from scipy.special import perm
+
+'''Calculating total number of permutations from 4 different values taken 2 at a time
+4P2'''
+per=perm(4,2)
+print("Permutation 4P2: -")
+print(per)
